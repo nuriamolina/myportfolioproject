@@ -1,0 +1,35 @@
+/*style page to share*/
+
+
+
+#menulogo {
+    width: 130px;
+}
+
+#logomenu {
+    width: 50px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-around;
+}
+
+.navbar-header {
+    align-content: space-between;
+}
+
+
+.select {
+    background-color: lightgrey;
+}
+
+
+
+#footer {
+    background-color:#333333;;
+    height: 100px;
+    color:#f4f4f4;
+
+}

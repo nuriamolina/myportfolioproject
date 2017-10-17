@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Nuria Molina" />
+        <meta name="description" content="Mill Design" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mill Design</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+        <link href=/style/normalise.css rel="stylesheet" />
+        <link href=/style/style.css rel="stylesheet" />
+        <link href=/style/loadstyle.css rel="stylesheet" />
+    </head>
+    <nav id="menuclass"></nav>
+    <body>
+        <div class="inline">
+            <div class="seventy5">
+                <div class="block">
+                    <h2>Titulo</h2>
+                    <img class ="imgblogdetalle" src="/img/imgwireframe.png" alt="imagen">
+                    <div class="inline">
+                        <p>Share</p>
+                        <div class="square">F</div>
+                        <div class="square">T</div>
+                        <div class="square">I</div>
+                    </div>
+                    <p>texto texto texto texto texto texto texto texto texto texto texto texto </p>
+                    <div class="inline">
+                        <img class="cuarter" src=/img/imgwireframe.png alt="img">
+                        <img class="cuarter" src=/img/imgwireframe.png alt="img">
+                        <img class="cuarter" src=/img/imgwireframe.png alt="img">
+                        <img class="cuarter" src=/img/imgwireframe.png alt="img">
+                    </div>
+
+                </div>
+
+
+                <form action="#" method="post" class="form-horizontal" id="commentForm" role="form"> 
+                    <div class="form-group">
+                        <label for="Name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" name="Name" id="addName" rows="1" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Comment</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="addComment" id="addComment" rows="5" disabled></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">                    
+                            <button class="btn btn-success btn-circle text-uppercase disabled" type="submit" id="submitComment"><span class="glyphicon glyphicon-send"></span> Summit comment</button>
+                        </div>
+                    </div>            
+                </form>
+
+                <div class="tab-content">
+                    <ul class="media-list">
+                        <li class="media">
+                            <div class="media-body">
+                                <div class="well well-lg">
+                                    <div class="inline">
+                                        <h4 class="media-heading text-uppercase reviews">Marco </h4>
+                                        <ul class="media-date text-uppercase reviews list-inline">
+                                            <li class="dd">22</li>
+                                            <li class="mm">09</li>
+                                            <li class="aaaa">2014</li>
+                                        </ul>
+                                    </div>
+                                    <p class="media-comment">
+                                        Great snippet! Thanks for sharing.
+                                    </p>
+                                </div>              
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
+
+
+
+
+
+            </div>
+            
+            <div class="twenty5 block">
+                <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                    <div class="input-append span12">
+                        <input type="text" class="search-query" placeholder="Search">
+                        <button type="submit" class="btn"><i class="icon-search"></i></button>
+                    </div>
+                </form>
+                <p> Categorias</p>
+                <form action="" class="block">
+                    <div class="inline"> 
+                        <input type="checkbox" name="categorias" value="all">All
+                    </div>
+                    <div class="inline"> 
+                        <input type="checkbox" name="categorias" value="interior">Interior
+                    </div>
+                    <div class="inline"> 
+                        <input type="checkbox" name="categorias" value="web">Web
+                    </div>
+                </form>
+                <p> Blog Archive</p>
+                <ul>
+                    <li>3</li>
+                    <li>2</li>
+                    <li>1</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/scripts/script.js"></script>
+    </body>
+    <footer id=footer></footer>
+</html>
