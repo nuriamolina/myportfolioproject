@@ -3,6 +3,8 @@
 body
 {
     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #myCarousel .nav a small
 {
@@ -47,6 +49,10 @@ body
 .imagenportfoliodetalle {
     width: 100%;
     height: 300px;
+}
+.imagenportfoliodetalle2 {
+    width: 100%;
+    height: 100px;
 }
 
 .square {
@@ -310,7 +316,7 @@ form {
 
 .imgcaruselportada {
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 
 .item {
