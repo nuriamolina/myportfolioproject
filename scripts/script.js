@@ -6,6 +6,7 @@ $(function(){
     footer();
     menuSlider();
     clientesSlider();
+    pensamientoDelDia();
 });
 
 
@@ -63,8 +64,33 @@ function navbar(){
 }
 
 function footer(){
-        $( "#footer" ).load( "/html/load.html #footer" );
+    $( "#footer" ).load( "/html/load.html #footer" );
 
 };
 
+function pensamientoDelDia(elementIndex){
+    var pensamientos=$("#pensamientos");
+    console.log(pensamientos);
+    var info = thoughtoftheday[0].thought;
+
+    var sentence= info[elementIndex].frase;
+    var autor =info[elementIndex].nombre;
+
+    var todo = $("<div class='center'></div>");
+    var frase = $("<h2 class='frase'></h2>");
+    var nombre = $("<p class='autor'></p>");
+
+    
+    //seleccion random de las frases------------------------------
+    
+    nombre.append(autor);
+    frase.append(sentence);
+
+    todo.append(frase);
+    todo.append(nombre);
+
+    pensamientos.append(todo);
+
+
+};
 
