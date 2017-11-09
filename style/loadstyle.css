@@ -7,7 +7,11 @@
 }
 
 #logomenu {
-    width: 50px;
+    width: 175px;
+    padding-top: 3px;
+    padding-bottom: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .navbar-nav {
@@ -17,7 +21,8 @@
 }
 
 .navbar-header {
-    align-content: space-between;
+    align-content: 50px;
+    height: 50px;
 }
 
 
@@ -34,3 +39,10 @@
     width: 100%;
 
 }
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
